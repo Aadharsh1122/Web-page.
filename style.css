@@ -1,0 +1,174 @@
+body {
+    font-family: 'times new roman', sans-serif;
+    background-color: #fcfdfc;
+    color: #333;
+    text-align:center; 
+}
+/* header section */
+#logo {
+   
+    margin-left: 2%;
+    display:flex;
+    align-items:left;
+   justify-content: left;
+   height: 90px;
+   width: 20px;
+}
+header{
+    position:relative;
+    text-align:center; 
+    background:linear-gradient(red,yellow);
+     margin: 2px auto; 
+    padding: 1rem; 
+    align-items:center; 
+}
+#name{
+   
+    text-align:center;
+    padding-left: 350px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size:35px;
+    position:absolute;
+    color: rgb(27, 11, 107);
+   
+}
+
+#tagline {
+    margin-top:50px;
+    padding-left:400px;
+    position: absolute;
+    text-align:center;
+    font-size:25px;
+    font-family: "Brush Script MT";
+   font-style: italic;
+    color: #4407bfc9;
+    
+}
+
+.navbar {
+    margin: 6px;
+    padding: 6px;
+    text-align:center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #8d3b05;
+    font-size: 25px;
+    text-align:center;
+    font-weight: bold;
+    margin:5px;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+.navbar a:hover {
+    background: #ffcc00;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+
+}
+/* service block */
+.hero {
+    background-color: rgb(133, 230, 233);
+   border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    color: rgb(200, 22, 22);
+    padding: 2rem ;
+    text-align: center;
+    font-size: 2rem;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}  
+
+.hero h1{
+    font-size: 2.5rem;
+    color: #6a881e;
+    font-weight: bold;
+    display: inline-block;
+    animation: moveWelcome 15s linear infinite;
+}
+@keyframes moveWelcome {
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(-100%);}
+}
+
+.hero p {
+    color: #5f30bc;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #cc5500;
+}
+/* about block */
+#about {
+    background: #fff3cd;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    background-color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+}
+/* partner block */
+#partners, #company-profile {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgb(145, 238, 187);
+}
+
+.partner img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ba8712;
+}
+/* footer section */
+footer {
+    background:linear-gradient(yellow,red);
+    color: rgb(15, 9, 9);
+    padding: 1rem 0;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
